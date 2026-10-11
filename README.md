@@ -18,7 +18,7 @@ given: hadith data by fawazahmed0/hadith-api and the translators credited in its
 - `packs/<book>-<lang>.v<version>.hdpk.gz`: one pack per book and language
   (`ar`, `bn`, `en`, `fr`, `id`, `ru`, `ta`, `tr`, `ur`). Every translation pack requires the book's Arabic pack.
   A pack is a gzip of the container described in
-  [FORMAT.md](https://github.com/Alims-Repo/Salamly/blob/feature/hadith/tools/hadith-dataset/FORMAT.md).
+  `tools/hadith-dataset/FORMAT.md` in the Salamly app repository.
 
 ## URL scheme
 
