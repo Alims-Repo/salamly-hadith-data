@@ -1,0 +1,1064 @@
+{
+ "schema": 1,
+ "formatVersion": 1,
+ "sourceCommit": "df57907be35291c91ad6a6691180e22ca9920784",
+ "generatedAt": "2026-10-11T18:16:09Z",
+ "books": [
+  {
+   "id": "abudawud",
+   "name": "Sunan Abu Dawud",
+   "hadithCount": 5274
+  },
+  {
+   "id": "bukhari",
+   "name": "Sahih al Bukhari",
+   "hadithCount": 7589
+  },
+  {
+   "id": "dehlawi",
+   "name": "Forty Hadith of Shah Waliullah Dehlawi",
+   "hadithCount": 40
+  },
+  {
+   "id": "ibnmajah",
+   "name": "Sunan Ibn Majah",
+   "hadithCount": 4343
+  },
+  {
+   "id": "malik",
+   "name": "Muwatta Malik",
+   "hadithCount": 1858
+  },
+  {
+   "id": "muslim",
+   "name": "Sahih Muslim",
+   "hadithCount": 7563
+  },
+  {
+   "id": "nasai",
+   "name": "Sunan an Nasai",
+   "hadithCount": 5765
+  },
+  {
+   "id": "nawawi",
+   "name": "Forty Hadith of an-Nawawi",
+   "hadithCount": 42
+  },
+  {
+   "id": "qudsi",
+   "name": "Forty Hadith Qudsi",
+   "hadithCount": 40
+  },
+  {
+   "id": "tirmidhi",
+   "name": "Jami At Tirmidhi",
+   "hadithCount": 3998
+  }
+ ],
+ "packs": [
+  {
+   "id": "abudawud-ar",
+   "book": "abudawud",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 1502358,
+   "sha256": "6944bc86e105f7e1f8c0ea2250127859afcf4b357a8a73e52cbefc81240f7162",
+   "contentSha256": "8dc3da166e041a1c2d392e00fe54129bacdc23c4e4829706654bbb1d8a948716",
+   "requires": [],
+   "parts": [
+    "packs/abudawud-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-bn",
+   "book": "abudawud",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 1442546,
+   "sha256": "3dd7c2205dc82b49fdfae8eaf2ea4bf4f15803ccc88b3cf6496fe9c8a9db0159",
+   "contentSha256": "8008c90fb536301e5c30bd57fe8ecaaaae770f7a904056cf54bc37408b6dab62",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-en",
+   "book": "abudawud",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 1035611,
+   "sha256": "c5196e726c3b3f45cec34086e24936191cc6b3d8d118f1ffa90247919007b5b5",
+   "contentSha256": "bd632a85fe8e7243434c8faee5ba938a5cf2af9b76beed4f120139d57f42523c",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-fr",
+   "book": "abudawud",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1114419,
+   "sha256": "975c6ec711bd7e58ed3670b873ff301fd1caaa2ca83942dc0009945098a60cec",
+   "contentSha256": "b901d4905e4c4e228cd397afcdec1e2d61d72401ae6e2a638435d06288de2cb5",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-id",
+   "book": "abudawud",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 1280250,
+   "sha256": "638414d63364d1a59534fa1f2004e3dc1519cea6ef597a6f59fae7420e387391",
+   "contentSha256": "9f1a0ff659178b6189d93c2d66d399088b715c9c0d286d22bf1a9bd886947744",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-ru",
+   "book": "abudawud",
+   "lang": "ru",
+   "version": 1,
+   "format": 1,
+   "bytes": 1198055,
+   "sha256": "1bccf98570e24d2ce0e66de5040d71c354c2fb57f26c27294f9ab0702ce7c15e",
+   "contentSha256": "98a6a03f64ac7be777d04f77aa09c2938a6fdd11457e925e18190b60e2288135",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-ru.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-tr",
+   "book": "abudawud",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1591828,
+   "sha256": "b6b9b018f30ecbaa3dd8e7cd95a2dcb680444e56f2919f66c4018d84ee610194",
+   "contentSha256": "62f2278ce3e3f852c4f153c5eb72c20ae53add2126b654def43dbcdec599d48b",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "abudawud-ur",
+   "book": "abudawud",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 1265153,
+   "sha256": "574dc526e1ba8caa1a478de7046eb7d9c95ad967487059caa1e61f0b6f9ebefe",
+   "contentSha256": "508b755c44e0abdc6d4422dfd6eb4e87d3d5c9dfb91a10c3e54ac3d8cb8a9ffc",
+   "requires": [
+    "abudawud-ar"
+   ],
+   "parts": [
+    "packs/abudawud-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-ar",
+   "book": "bukhari",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 2311817,
+   "sha256": "7a0838f95daf4b2c745c70fa2c30c265f857eea237e92a009d524d7ca7c6a59a",
+   "contentSha256": "2da9fd5c5bf451e371e9dee4fed9de83015226cc526d5a089f0e7428880896f5",
+   "requires": [],
+   "parts": [
+    "packs/bukhari-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-bn",
+   "book": "bukhari",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 3337418,
+   "sha256": "71f635cf1170bb08fa0b552d067c1255b37c60f8787ba4a0b2b040c3cf4d35da",
+   "contentSha256": "ea78dc71519c7d7d2f0fd0a8388b95d8eaf3232f6bae597035729f72d474bf0b",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-en",
+   "book": "bukhari",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 1775188,
+   "sha256": "e5bee8456a5af1dfd284d7273cae6afd0add95320d43419cb14bb51e6e83f638",
+   "contentSha256": "de1d37aad1e189f03a16c2f35d8132f635071f40aa775adc5d8cf94a811ed924",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-fr",
+   "book": "bukhari",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1884052,
+   "sha256": "0088255d29ab56cb9d4b21e86fd9b828ef2d72e94e597c0f27721bc7f46953f3",
+   "contentSha256": "ebdcbd30c3bd7460dd6f57d889e0d581c6c59a9b9e3bf37b301f80383174541b",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-id",
+   "book": "bukhari",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 2056583,
+   "sha256": "6ffcdf1c4da40244437d8f5154b3bfb098b0f8243f97e36e668cbc58ec0d074b",
+   "contentSha256": "3dbb014d5446f47e6c99a79ea2365d1962276b69a39aa7247efa470057792445",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-ru",
+   "book": "bukhari",
+   "lang": "ru",
+   "version": 1,
+   "format": 1,
+   "bytes": 2296606,
+   "sha256": "51184fbcd7dd82c98cb44a9fbbb50468e7d9874f1b3e131ee56153dc5178298f",
+   "contentSha256": "417870aef6969e0f51a0fc7959d0df9d4ff7a76343af439db015586cd8c39d7d",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-ru.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-ta",
+   "book": "bukhari",
+   "lang": "ta",
+   "version": 1,
+   "format": 1,
+   "bytes": 3264126,
+   "sha256": "32925eee9ca3b90644703c6080c994845eff7bfcccd9f8bf005ebc17662e8fd6",
+   "contentSha256": "5bc0e1a83bbc7dedb52b6513babb21d5421edaee15738f5f157d170b28260913",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-ta.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-tr",
+   "book": "bukhari",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 4537468,
+   "sha256": "1635f093df942b9bf93f906b334dea396a4ca4481a54ae284ad4a34ecc774975",
+   "contentSha256": "37d9e83c8430a008a402f8738513bc8d23784e6e4c88a6974c58ea929c4df565",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "bukhari-ur",
+   "book": "bukhari",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 2443684,
+   "sha256": "5e2cc8efa5ea39083c4d433dc2050a6216f720db598ec4df0d277b8e727bd624",
+   "contentSha256": "15f16bb2778cc1543739bb40f9ea8e8109ead18179ba57a64ea02becd6c617e2",
+   "requires": [
+    "bukhari-ar"
+   ],
+   "parts": [
+    "packs/bukhari-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "dehlawi-ar",
+   "book": "dehlawi",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 3478,
+   "sha256": "21fceda34a5119e528b987e6949180c1ee1476fb456323c2763f215f42d2846d",
+   "contentSha256": "391119c7c62efb9a3dea75ca18d3a0a4ed41ab99ab8878ada65a56bdd2ec5229",
+   "requires": [],
+   "parts": [
+    "packs/dehlawi-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "dehlawi-en",
+   "book": "dehlawi",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 3162,
+   "sha256": "d19e6aaf3f90b92dea3ff049178dfa960fc45d9ad4dccd40b1567418ff14c3a1",
+   "contentSha256": "3eca702cfea8298e539235ab9babecdf53839c3cd80f01e9c85b367a467c38e4",
+   "requires": [
+    "dehlawi-ar"
+   ],
+   "parts": [
+    "packs/dehlawi-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "dehlawi-fr",
+   "book": "dehlawi",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 3435,
+   "sha256": "114e48a858d5151ccf821c19f8545c5b0957b7b92d1151ef2b687ef9024892c0",
+   "contentSha256": "37b05d890ae149ad49efa8b1a77979125b1dae18bdfed5cad7682c673398c723",
+   "requires": [
+    "dehlawi-ar"
+   ],
+   "parts": [
+    "packs/dehlawi-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-ar",
+   "book": "ibnmajah",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 1068679,
+   "sha256": "357e45b23b710482760ac8c181cc4f16100cf757eaf645369e0bd9f5f40ffb7e",
+   "contentSha256": "1713345aaac81a4d0b4258c2b089a5c55138f8ff430ebd182f17744e70fb17fb",
+   "requires": [],
+   "parts": [
+    "packs/ibnmajah-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-bn",
+   "book": "ibnmajah",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 928796,
+   "sha256": "36d9ada856a45d9b5c12960f4c324228e8c573f8b30d418fc48fbfd6bbc691b1",
+   "contentSha256": "9b03d3e1f9b4047d1f9a9aea0ae012e3a196f00f3216a71797fb6c7b5bea690b",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-en",
+   "book": "ibnmajah",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 694374,
+   "sha256": "0fdcb885e80a7d61d5b80fef8955553912a7d749b4c08429eea548974f1ed4ee",
+   "contentSha256": "fbd7692af2f7964f5d73658df8daad87a2a44aa0f9452877a3fc069b16048b1d",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-fr",
+   "book": "ibnmajah",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 737089,
+   "sha256": "7b3f48feda56f4bd4433748662f913c0eaae15a24e59f086740302388169f9d4",
+   "contentSha256": "6fea0a82622d3180736e53643eabeb6c92d566a99a587d21d396fe531fccefcc",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-id",
+   "book": "ibnmajah",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 924101,
+   "sha256": "b3453dd0dc06d5752cfbdc2e2158c10333e110aae3a139038e73bd5b1872eec0",
+   "contentSha256": "6db8596e6ca7568c9493b84d486128a8983fe18a0ee01b6571adb7618748c26c",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-tr",
+   "book": "ibnmajah",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1722336,
+   "sha256": "137cee5f4ae7448ee94b496c25140c32432e58626c2609a146fa3f0fe3560a0d",
+   "contentSha256": "4df89f15daa8cbd8559da102316b3ea6f4558541372aa815b66248ee2c6ca2f0",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "ibnmajah-ur",
+   "book": "ibnmajah",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 822642,
+   "sha256": "835ab3085ab87d8908d9bfac33c8de6e750bfaabec119857931b5f263ac08676",
+   "contentSha256": "5883623d1af10a622b2e75ac96a3f6003fba560134fc0eee89263ddffe142e35",
+   "requires": [
+    "ibnmajah-ar"
+   ],
+   "parts": [
+    "packs/ibnmajah-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-ar",
+   "book": "malik",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 531337,
+   "sha256": "6bbde370ed18ae629fb89493623d1cd1f9022df1d2c41b8e44c1ac6c9bebf221",
+   "contentSha256": "183b2f3af5eee0e3ab275cb442c4c4e9c2cb9ce73dd5f6632e1be24cdd02736a",
+   "requires": [],
+   "parts": [
+    "packs/malik-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-bn",
+   "book": "malik",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 635616,
+   "sha256": "620ca9b61eaf30bb4cc44a41bef67a7f8bfdad60bd73ec4dc72548c06358faac",
+   "contentSha256": "bd88e50e5f38c5fbd7f22809309081981821f3101ce5091b7f4ea9d83c2a8cd7",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-en",
+   "book": "malik",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 493143,
+   "sha256": "21532a687bb8b4297827eafc37bdbcd9945805e4f65e5e177475e1d75c5a883e",
+   "contentSha256": "dedb2833c9d94bb3e8612e621727c931b7a58dd03131ab0b2724852ded3cc70d",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-fr",
+   "book": "malik",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 508514,
+   "sha256": "a141f8b5efd6f09ab18b52dc28f84ef825300fd82a207dcd0361ca20e54f559b",
+   "contentSha256": "05a33e3bbc489325cdcb51129765f3e39cec061961f0e9fc504c1314863aea75",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-id",
+   "book": "malik",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 342907,
+   "sha256": "eb97fe9125f47d81bb5050b6abf8e09789b84df1e005ccb07e855e77f3e5d5f8",
+   "contentSha256": "c43274d0f93e885beaf8a2fc0a6004942376bfa95f8e50b02d46b504f0b07cf5",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-tr",
+   "book": "malik",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 407487,
+   "sha256": "abc8eb5efddc173f422a484cd7525759eab1b0e7499bdc2311de0bf823ffa1f3",
+   "contentSha256": "662f572785645016d895df92bdfea19a1865990842128a6b5a7848c9f6b79e01",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "malik-ur",
+   "book": "malik",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 362014,
+   "sha256": "a4c6fbcef99b627a1deccefa6d3c71cb0399bec3d1f8ff0a9000524766ba3546",
+   "contentSha256": "d3b86cd670fb768ad6e19d454f43ede2a8074e06fd71cf9fd911bbcaaf777775",
+   "requires": [
+    "malik-ar"
+   ],
+   "parts": [
+    "packs/malik-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-ar",
+   "book": "muslim",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 1892362,
+   "sha256": "426737e12a6d3ae673e68615ae11ac8b542670f6fef01837d4d483f44a7902e1",
+   "contentSha256": "b8493168a850e30efa1451d53604501983144d396e3fd4656b138c47b75569a1",
+   "requires": [],
+   "parts": [
+    "packs/muslim-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-bn",
+   "book": "muslim",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 2046335,
+   "sha256": "9b30c30d930f9489e25236a7bdf10480f5c826ae5651da4ff15aa5f6dcf74d3f",
+   "contentSha256": "bf09b5b8b36160866b6b332d1c4ac7671f53d0b88f50e288b9f7a47a4f02bca5",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-en",
+   "book": "muslim",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 1348305,
+   "sha256": "a6c40c754eca2f9ecef29977af3b6ef9869703aa7ae445288698bf1f19362dc8",
+   "contentSha256": "28c6135fa672cdc10a155ba12b6d530cdce225980b3b6e7010257b0bb92c0340",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-fr",
+   "book": "muslim",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1322489,
+   "sha256": "cb505172995cb46a270151519e219b1a6eb8c6bde831cdf6caf8f11d761884a0",
+   "contentSha256": "d4a30048ba19553dc23d555faa41d717a6c5a73be8268659be7b85c919f17f90",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-id",
+   "book": "muslim",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 1630051,
+   "sha256": "d3213b7aff46859226bdd07cc34d1e6fd1342c6ebf0fcdcad616bf0bd308e348",
+   "contentSha256": "12d187c0e9ba739e06bf2ea88263a375f15b0eae286abfba7ed7b12212a19441",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-ru",
+   "book": "muslim",
+   "lang": "ru",
+   "version": 1,
+   "format": 1,
+   "bytes": 723946,
+   "sha256": "8b344b5eef60d3eef547cc16063f9b09590f412fc26ba5e389334b8225fcfbfa",
+   "contentSha256": "18c05564aa62486c81edb3cc894deb568aedc240d389aeab03bebdfd8571c123",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-ru.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-ta",
+   "book": "muslim",
+   "lang": "ta",
+   "version": 1,
+   "format": 1,
+   "bytes": 1325620,
+   "sha256": "53d03c8d980c4ad736b20ce81a49f51a4a1e702d735f5fda3d293c2b4cd65856",
+   "contentSha256": "d94eedb4533de00d9a2d9df9a0fb92a44a47ac4a0ea3ffde9c2717b29a43792c",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-ta.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-tr",
+   "book": "muslim",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 2716369,
+   "sha256": "8d72820a75379b3eeb6f798c0730e1174b9f5ed6a42e48d8e9742c5015a15963",
+   "contentSha256": "d6827b239ea9d5bb9b4d4d31320453761c9f6f34d6e2fb2ea1f66d30b517be0c",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "muslim-ur",
+   "book": "muslim",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 1864517,
+   "sha256": "19ee1cddd900c7490d53be8fa8a5936236885069fd5c46786252cce41cd09d6c",
+   "contentSha256": "f5bd3dac7d16e4e399c580f4397d9227cf12eb0f141cc7b169d76e326480dcbc",
+   "requires": [
+    "muslim-ar"
+   ],
+   "parts": [
+    "packs/muslim-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-ar",
+   "book": "nasai",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 1280797,
+   "sha256": "045956de4d0e823cdb37f1d3d7d43d53e2fb31e96071d3f39a9845415f260293",
+   "contentSha256": "5ddb77fe8a2eb6bacb98a827c3d1262e51a133764eb2bc9e110b95d90691f505",
+   "requires": [],
+   "parts": [
+    "packs/nasai-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-bn",
+   "book": "nasai",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 1241535,
+   "sha256": "6734503510f3d5b8409f9d236264ad7f14bd2fd8d9af4bd7468c478ff035c3e7",
+   "contentSha256": "036fb9a531bab1f3e09777c01ad50eb4466bdb34fce7da916efae0808b592074",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-en",
+   "book": "nasai",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 848742,
+   "sha256": "b69764c13dc9010e24db1eb6e018535b90aaceb5e82820b6e2fbee401813aca9",
+   "contentSha256": "6576b0b61f4d56e7924285ba36f4b025d58df7c3f49781266f14834089b51bb0",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-fr",
+   "book": "nasai",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 903123,
+   "sha256": "f3b59f65b44f43acf86b8035de06e9880a2cb56604819dbfe568ca3fbea2338c",
+   "contentSha256": "3980b2d405a6c22939624e39317b769da6634e2002956a9572458703b4d5bbaf",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-id",
+   "book": "nasai",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 1091013,
+   "sha256": "855be93cab23e8688c510a4956b6b3ff5f564c7befb012c919b6945ae62d8983",
+   "contentSha256": "a9a456c3fad7bf16585254489fed33025030975a8b57f417e8fa27f74e77e968",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-tr",
+   "book": "nasai",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 191830,
+   "sha256": "9291a802602697cbd788c11ddf98fa0fbc65b90882cffee4f3a993f7ccc2537a",
+   "contentSha256": "21c72625c111ab38405e0406a50deb62c06e006e9a47fae3cffbdcf4135f1830",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nasai-ur",
+   "book": "nasai",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 794148,
+   "sha256": "37b8ad171470a70093c8de1efa5a7cfc620db637f6f94418b863f72a689ac18f",
+   "contentSha256": "6d9301cd4eaf5dacdfedc4532746ac4ad20260766c44e007e319ac41625e1e4d",
+   "requires": [
+    "nasai-ar"
+   ],
+   "parts": [
+    "packs/nasai-ur.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nawawi-ar",
+   "book": "nawawi",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 22428,
+   "sha256": "6fb391aa327c8fc1e54610aa65c287cc368b1145ae76039a5f69813c04bd9310",
+   "contentSha256": "40d790844d14c1ba341ecb18214ff5d3af58e8cb8676b5c6af2786b647b05276",
+   "requires": [],
+   "parts": [
+    "packs/nawawi-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nawawi-bn",
+   "book": "nawawi",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 24288,
+   "sha256": "6e990ac0d4b6f95066e8773daee6f12b3329b557df32e7da1c33c02396e0c611",
+   "contentSha256": "bfc230fe48dd9ea32c01a3d8ea0aa1d628f6b61cb348a3c2bfbc8d589193376e",
+   "requires": [
+    "nawawi-ar"
+   ],
+   "parts": [
+    "packs/nawawi-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nawawi-en",
+   "book": "nawawi",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 19273,
+   "sha256": "cf17281e0203cdce4abf2b27b719a3a9470951269b5a386edb01b2338bf880ab",
+   "contentSha256": "a167b47644fb37dd631b8ce4dccbee67b3b09f93ddb46421eeb8c3395ae30904",
+   "requires": [
+    "nawawi-ar"
+   ],
+   "parts": [
+    "packs/nawawi-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nawawi-fr",
+   "book": "nawawi",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 18622,
+   "sha256": "71f4188ee03edd4c36193984ecbc337759eef2555457034d91ab268d14cbebdd",
+   "contentSha256": "0579ce12a4ed6f3e27ab353f7baecfd54e6d5ab770981df191f2578d1f478f3a",
+   "requires": [
+    "nawawi-ar"
+   ],
+   "parts": [
+    "packs/nawawi-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "nawawi-tr",
+   "book": "nawawi",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 18137,
+   "sha256": "883add567ec257d7c55dac76c8166fc54a94847d4f194620ff8c723f8f6f5ce3",
+   "contentSha256": "a1884371ec66cf28a7ca92b9c131f28397ad10d70cffc99b1c82452ec57e7aa2",
+   "requires": [
+    "nawawi-ar"
+   ],
+   "parts": [
+    "packs/nawawi-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "qudsi-ar",
+   "book": "qudsi",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 22897,
+   "sha256": "21472dd0c0979a9db7bca644a1c333ae42aebe0698bffd40fa7a2127f6998ad3",
+   "contentSha256": "443466bdadde02df0dd8cb94a99548e70ef3b4c453d6f4c5caa6baeca28268d5",
+   "requires": [],
+   "parts": [
+    "packs/qudsi-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "qudsi-en",
+   "book": "qudsi",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 20445,
+   "sha256": "8543a87ba6f0d83d7ab0eec45de5a443691e56573efd2ec7e058df1b82dabbe6",
+   "contentSha256": "6b73a563e6e730b0ef098d639a54032a40e4cb2a8cc8a3e9a770cff0ecca45e3",
+   "requires": [
+    "qudsi-ar"
+   ],
+   "parts": [
+    "packs/qudsi-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "qudsi-fr",
+   "book": "qudsi",
+   "lang": "fr",
+   "version": 1,
+   "format": 1,
+   "bytes": 18892,
+   "sha256": "2348fc84eaa8863afdfce37c7add7f29537f921acbc7f15771abd404db2ebe29",
+   "contentSha256": "a72e6216060962fb2b8e8417a56c002514809e9a9eca059f6ebb3a8791287867",
+   "requires": [
+    "qudsi-ar"
+   ],
+   "parts": [
+    "packs/qudsi-fr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-ar",
+   "book": "tirmidhi",
+   "lang": "ar",
+   "version": 1,
+   "format": 1,
+   "bytes": 1412411,
+   "sha256": "05311db13da68c3549364f56af446abfe438070ec9c7669753909364defb46d5",
+   "contentSha256": "905338ef69e3cb7938ef78ede4915c3f02c84fe2c17618af6e1c358ad15c5302",
+   "requires": [],
+   "parts": [
+    "packs/tirmidhi-ar.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-bn",
+   "book": "tirmidhi",
+   "lang": "bn",
+   "version": 1,
+   "format": 1,
+   "bytes": 1576677,
+   "sha256": "ffd6881107218d33f82c3b57812ba7fb6d748047520364474e417ae4678baf7f",
+   "contentSha256": "70fe4c46501becf7c02cb9b58bbb3e4e11019759c8da83490beae6c095291e78",
+   "requires": [
+    "tirmidhi-ar"
+   ],
+   "parts": [
+    "packs/tirmidhi-bn.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-en",
+   "book": "tirmidhi",
+   "lang": "en",
+   "version": 1,
+   "format": 1,
+   "bytes": 760494,
+   "sha256": "c233a2b2367a861aabcdb47b5868ef788c954cfa24407dd3688a243cd65d3637",
+   "contentSha256": "9693831cd5d5c2abe3dfcb9549e67b6bc64fb98ad9ce2c72f950b0ac9e36dc55",
+   "requires": [
+    "tirmidhi-ar"
+   ],
+   "parts": [
+    "packs/tirmidhi-en.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-id",
+   "book": "tirmidhi",
+   "lang": "id",
+   "version": 1,
+   "format": 1,
+   "bytes": 1176892,
+   "sha256": "ab4b96af73397ec87fffc467a6b6c3c7a3868dee5bbea7e6a92189d7c1106f87",
+   "contentSha256": "c5b87d350ea825c9466419718f646a001aa8cdcd4d29c2678ee7c27023cbbac1",
+   "requires": [
+    "tirmidhi-ar"
+   ],
+   "parts": [
+    "packs/tirmidhi-id.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-tr",
+   "book": "tirmidhi",
+   "lang": "tr",
+   "version": 1,
+   "format": 1,
+   "bytes": 1249451,
+   "sha256": "02fc3e1eeec302f0ed3cc4458d56b603284e98f8dce196107ce7443b8a7e48ba",
+   "contentSha256": "7841fbe24c04f363f61025eb1b7fd39ddb3de2b4b2cc240b3b2b1c23999336a4",
+   "requires": [
+    "tirmidhi-ar"
+   ],
+   "parts": [
+    "packs/tirmidhi-tr.v1.hdpk.gz"
+   ]
+  },
+  {
+   "id": "tirmidhi-ur",
+   "book": "tirmidhi",
+   "lang": "ur",
+   "version": 1,
+   "format": 1,
+   "bytes": 1244468,
+   "sha256": "37bf88883d3473c679ebe1b86d63a4435d8adb59e4f5fcadb4f56a073511197d",
+   "contentSha256": "da4e746aa89a327a8291cdae15517697f36de3f211903bbf6e4f1f278949730d",
+   "requires": [
+    "tirmidhi-ar"
+   ],
+   "parts": [
+    "packs/tirmidhi-ur.v1.hdpk.gz"
+   ]
+  }
+ ]
+}
